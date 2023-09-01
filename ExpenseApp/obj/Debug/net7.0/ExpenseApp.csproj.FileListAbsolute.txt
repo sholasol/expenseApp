@@ -40,3 +40,7 @@
 /Users/applemacbook/Projects/ExpenseApp/ExpenseApp/obj/Debug/net7.0/ExpenseApp.pdb
 /Users/applemacbook/Projects/ExpenseApp/ExpenseApp/obj/Debug/net7.0/ExpenseApp.genruntimeconfig.cache
 /Users/applemacbook/Projects/ExpenseApp/ExpenseApp/obj/Debug/net7.0/ref/ExpenseApp.dll
+/Users/applemacbook/Projects/ExpenseApp/ExpenseApp/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/applemacbook/Projects/ExpenseApp/ExpenseApp/bin/Debug/net7.0/Syncfusion.EJ2.dll
+/Users/applemacbook/Projects/ExpenseApp/ExpenseApp/bin/Debug/net7.0/Syncfusion.Licensing.dll
+/Users/applemacbook/Projects/ExpenseApp/ExpenseApp/obj/Debug/net7.0/ExpenseApp.MvcApplicationPartsAssemblyInfo.cs

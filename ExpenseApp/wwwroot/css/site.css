@@ -20,3 +20,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.e-bigger {
+    font-size: x-large;
+}

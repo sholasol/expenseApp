@@ -1,0 +1,48 @@
+﻿@model Category
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Create";
+
+}
+
+<div class="row>
+    <div class="my-5">
+        <div class="p-5 text-center bg-body-tertiary">
+            <div class="container py-5">
+                <h1 class="text-body-emphasis">Create Category</h1>
+                <p class="col-lg-8 mx-auto lead">
+                    This takes the basic jumbotron above and makes its background edge-to-edge with a <code>.container</code> inside to align content. Similar to above, it's been recreated with built-in grid and utility classes.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="b-example-divider"></div>
+
+    <form class="row g-3 mt-5 mb-2" asp-action="Create">
+        <div class="col-md-6">
+            <ejs-textbox id="Titile" ejs-for="Titile" placeholder="Title" floatLabelType="Always"></ejs-textbox>
+            <span asp-validation-for="Titile"></span>
+        </div>
+        <div class="col-md-6">
+            <ejs-textbox id="Icon" ejs-for="Icon" placeholder="Icon" floatLabelType="Always"></ejs-textbox>
+            <span asp-validation-for="Icon"></span>
+        </div>
+        <div class="form-group">
+            <div class="e-btn-group">
+                <div class="col-md-6 mt-2">
+                    <ejs-radiobutton id="radio1" value="Expense" label="Expense" name="Type" checked="@(Model.Type =="Expense")"></ejs-radiobutton>
+                    <ejs-radiobutton id="radio2" value="Income" label="Income" name="Type" checked="@(Model.Type =="Expense")"></ejs-radiobutton>
+
+                    <span asp-validation-for="Type"></span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary">Create</button>
+        </div>
+    </form>
+</div>

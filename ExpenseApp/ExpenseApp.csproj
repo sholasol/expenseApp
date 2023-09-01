@@ -14,8 +14,15 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Syncfusion.EJ2.AspNet.Core" Version="22.2.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Category\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Category\" />
   </ItemGroup>
 </Project>
